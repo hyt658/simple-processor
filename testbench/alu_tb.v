@@ -4,9 +4,9 @@ module alu_tb();
 
     // inputs to the ALU are reg type
 
-    reg            clock;
+    reg        clock;
     reg [31:0] data_operandA, data_operandB, data_expected;
-    reg [4:0] ctrl_ALUopcode, ctrl_shiftamt;
+    reg [4:0]  ctrl_ALUopcode, ctrl_shiftamt;
 
 
     // outputs from the ALU are wire type
